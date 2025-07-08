@@ -18,8 +18,8 @@ disabled in the Monetico configuration.
 ## Requirements
 
 * PHP > 7.4
-* 
-* Blackbird Monetico version: >=100.3.38
+* Hÿva Checkout : ^1.1
+* Blackbird Monetico version: ^100.3.38
 
 ## Setup
 
