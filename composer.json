@@ -1,0 +1,21 @@
+{
+  "name": "blackbird/monetico-hyva-compatibility",
+  "version": "1.0.0",
+  "description": "Blackbird Monetico Compatibility with Hÿva Theme check https://store.bird.eu/ : to get a license of Monetico base module.",
+  "type": "magento2-module",
+  "require": {
+    "hyva-themes/magento2-hyva-checkout": "^1.1",
+    "blackbird/monetico": "^100.3.38"
+  },
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+        "Blackbird\\MoneticoHyvaCompatibility\\": ""
+    }
+  }
+}

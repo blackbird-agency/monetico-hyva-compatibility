@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="checkout.payment.methods">
+            <block name="checkout.payment.method.monetico_1euro"
+                   as="monetico_1euro"
+            >
+                <arguments>
+                    <argument name="metadata" xsi:type="array">
+                        <item name="icon" xsi:type="array">
+                            <item name="svg" xsi:type="string">blackbirdmonetico/1euro-logo</item>
+                            <item name="attributes" xsi:type="array">
+                                <item name="width" xsi:type="string">140</item>
+                                <item name="fill" xsi:type="string">none</item>
+                            </item>
+                        </item>
+                    </argument>
+                </arguments>
+            </block>
+
+            <block name="checkout.payment.method.monetico_onetime"
+                   as="monetico_onetime"
+            >
+                <arguments>
+                    <argument name="metadata" xsi:type="array">
+                        <item name="icon" xsi:type="array">
+                            <item name="svg" xsi:type="string">blackbirdmonetico/onetime-logo</item>
+                            <item name="attributes" xsi:type="array">
+                                <item name="fill" xsi:type="string">none</item>
+                            </item>
+                        </item>
+                    </argument>
+                </arguments>
+            </block>
+
+            <block name="checkout.payment.method.monetico_multitime"
+                   as="monetico_multitime"
+            >
+                <arguments>
+                    <argument name="metadata" xsi:type="array">
+                        <item name="icon" xsi:type="array">
+                            <item name="svg" xsi:type="string">blackbirdmonetico/onetime-logo</item>
+                            <item name="attributes" xsi:type="array">
+                                <item name="fill" xsi:type="string">none</item>
+                            </item>
+                        </item>
+                    </argument>
+                </arguments>
+            </block>
+
+            <block name="checkout.payment.method.monetico_3xcb"
+                   as="monetico_3xcb"
+            >
+                <arguments>
+                    <argument name="metadata" xsi:type="array">
+                        <item name="icon" xsi:type="array">
+                            <item name="svg" xsi:type="string">blackbirdmonetico/3xcb-logo</item>
+                            <item name="attributes" xsi:type="array">
+                                <item name="fill" xsi:type="string">none</item>
+                            </item>
+                        </item>
+                    </argument>
+                </arguments>
+            </block>
+
+            <block name="checkout.payment.method.monetico_4xcb"
+                   as="monetico_4xcb"
+            >
+                <arguments>
+                    <argument name="metadata" xsi:type="array">
+                        <item name="icon" xsi:type="array">
+                            <item name="svg" xsi:type="string">blackbirdmonetico/4xcb-logo</item>
+                            <item name="attributes" xsi:type="array">
+                                <item name="fill" xsi:type="string">none</item>
+                            </item>
+                        </item>
+                    </argument>
+                </arguments>
+            </block>
+
+            <block name="checkout.payment.method.monetico_paypal"
+                   as="monetico_paypal"
+            >
+                <arguments>
+                    <argument name="metadata" xsi:type="array">
+                        <item name="icon" xsi:type="array">
+                            <item name="svg" xsi:type="string">blackbirdmonetico/paypal-logo</item>
+                            <item name="attributes" xsi:type="array">
+                                <item name="fill" xsi:type="string">none</item>
+                            </item>
+                        </item>
+                    </argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+    </body>
+</page>
+
