@@ -1,6 +1,6 @@
 # Blackbird Monetico Hÿva Compatibility
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/blackbird/module-hyva-monetico.svg?style=flat-square)](https://packagist.org/packages/blackbird/module-hyva-monetico)
+[![Latest Stable Version](https://img.shields.io/packagist/v/blackbird/monetico-hyva-compatibility.svg?style=flat-square)](https://packagist.org/packages/blackbird/module-hyva-monetico)
 [![License: MIT](https://img.shields.io/github/license/blackbird-agency/monetico-hyva-compatibility.svg?style=flat-square)](./LICENSE)
 
 Compat module for Blackbird Monetico on Magento 2 using Hyvä Checkout. This requires:
